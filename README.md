@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Playground
 
-## Getting Started
+This playground has Next.js, TypeScript, ChakraUI, and Axios set-up to follow tutorials during Delta workstations. Follow the instructions below and reach out to kjeelani@berkeley.edu for any questions!
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+You'll need Node.js installed on your system. You can download it from https://nodejs.org/.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository to your local machine using `git clone https://github.com/kjeelani/nextjs-playground.git`
+2. Navigate to the project directory using `cd nextjs-playground`
+3. Install the dependencies using `npm install`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Running the Application
 
-## Learn More
+1. To start the development server, run `npm run dev`
+2. Open your browser and visit [http://localhost:3000](url) to see the application in action.
 
-To learn more about Next.js, take a look at the following resources:
+### Other Important Git Commands
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Before you work on ANYTHING, ensure you have the latest changes from the master via the following steps
+   1. Ensure you are on the right branch via `git branch`. You should NEVER be on the master branch. If so, follow step 2a below.
+   2.  Use `git pull origin master`. IF THERE ARE MERGE CONFLICTS, CONTACT YOUR PM IMMEDIATELY!
+2. When you've made changes, it's important that you follow the proper steps in committing TO THE RIGHT BRANCH!
+   1. First, ensure you are in your development branch by `git branch`. If not, create your own via `git checkout -b <branch_name>`.
+   2. Then follow `git add .` -> `git commit -m <message>` -> `git push origin <branch_name>`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Useful Resources 
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. [Next.js Documentation](https://nextjs.org/docs)
+2. [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+3. [ChakraUI Documentation](https://chakra-ui.com/docs/components)
+4. [Axios Documentation](https://giphy.com/stickers/transparent-TLeLKUdIc1tvAxb7ab)
+5. [GitHub Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
